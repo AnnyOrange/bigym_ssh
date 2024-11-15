@@ -22,7 +22,7 @@ def get_version(rel_path):
 
 core_requirements = [
     # includes bugfix in mujoco_rendering
-    "gymnasium @ git+ssh://git@github.com:stepjam/Gymnasium.git@0.29.2",
+    "gymnasium @ git+ssh://git@github.com/stepjam/Gymnasium.git@0.29.2",
     # pyquaternion doesn't support 2.x yet
     "numpy==1.26.*",
     "safetensors==0.3.3",
@@ -34,7 +34,7 @@ core_requirements = [
     "pyquaternion",
     "mujoco_utils",
     "wget",
-    "mojo @ git+ssh://git@github.com:stepjam/mojo.git@0.1.1",
+    "mojo @ git+ssh://git@github.com/stepjam/mojo.git@0.1.1",
     "pyyaml",
     "dearpygui",
     "pyopenxr",
